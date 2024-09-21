@@ -10,4 +10,17 @@ function getComputerChoice() {
 	}
 }
 
+function getHumanChoice() {
+	const input = prompt("0: Rock, 1: Paper, 2: Scissors");
+
+	if (input === 0) {
+		return "rock";
+	} else if (input === 1) {
+		return "paper";
+	} else {
+		return "scissors";
+	}
+}
+
 console.log(getComputerChoice());
+console.log(getHumanChoice());
