@@ -1,0 +1,93 @@
+
+
+body {
+	background-color: silver;
+}
+
+.button-container {
+	display: flex;
+	gap: 30px;
+	margin: 50px;
+}
+
+button {
+	border-radius: 12px;
+	font-size: 50px;
+	flex: 1;
+	cursor: pointer;
+}
+
+#round {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+
+
+
+#rock {
+	background-color: gray;
+}
+
+#scissors {
+	background-color: red;
+}
+
+#results {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+#score {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	gap: 25px;
+	width: 35%;
+	background-color: cyan;
+}
+
+#human-choice, #computer-choice, #round-result {
+	font-size: 18px;
+	padding: 5px;
+	border-radius: 4px;
+	width: auto;
+}
+
+#human-choice {
+	background-color: green;
+}
+
+#computer-choice {
+	background-color: red;
+}
+
+#round-result {
+	background-color: grey;
+}
+
+#human, #computer {
+	width: auto;
+	border-radius: 4px;
+	text-align: center;
+	padding: 5px;
+}
+
+#human {
+	color: white;
+	background-color: green;
+}
+
+#computer {
+	color: white;
+	background-color: red;
+}
+
+#winner {
+	font-size: 30px;
+}
+
